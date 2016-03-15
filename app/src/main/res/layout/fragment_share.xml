@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/top_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <com.cml.second.app.common.widget.WheelView
+        android:id="@+id/wheel_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:overScrollMode="never"/>
+
+    <Button
+        android:id="@+id/wheel_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="弹出滚动选择"/>
+
+    <Button
+        android:id="@+id/popup_window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="popwindow"/>
+
+    <Button
+        android:id="@+id/datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="datepicker"/>
+
+
+</LinearLayout>

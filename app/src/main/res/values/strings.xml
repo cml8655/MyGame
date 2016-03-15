@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OoooO</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--menu titles-->
+    <string name="title_main">主页</string>
+    <string name="title_babies">我的宝贝</string>
+    <string name="title_indexable">我的宝贝</string>
+    <string name="title_recycler">recyclerview</string>
+    <string name="title_friends">我的好友</string>
+    <string name="title_share">我的分享</string>
+    <string name="title_exchange">切换用户</string>
+    <string name="title_settings">设置中心</string>
+
+    <!--fragment/activity/dialog titles-->
+    <string name="title_picture">照片添加</string>
+    <string name="title_picker">请选择功能</string>
+
+
+    <string-array name="items_picker">
+        <item>拍照添加</item>
+        <item>本地图片</item>
+        <item>录制视频</item>
+        <item>本地视频</item>
+    </string-array>
+</resources>
