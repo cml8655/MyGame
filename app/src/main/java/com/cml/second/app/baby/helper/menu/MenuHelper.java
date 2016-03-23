@@ -12,6 +12,7 @@ import com.cml.second.app.baby.activity.ContainerActivity;
 import com.cml.second.app.baby.activity.MenuActivity;
 import com.cml.second.app.baby.fragment.BaseFragment;
 import com.cml.second.app.baby.fragment.CoordinatorLayoutFragment;
+import com.cml.second.app.baby.fragment.GameFragment;
 import com.cml.second.app.baby.fragment.IndexableFragment;
 import com.cml.second.app.baby.fragment.MainFragment;
 import com.cml.second.app.baby.fragment.RecycerviewFragment;
@@ -78,6 +79,9 @@ public class MenuHelper implements NavigationMenuView.OnMenuSelectedLisener {
                 break;
             case 5:
                 ContainerActivity.startActivity(menuActivity, CoordinatorLayoutFragment.class);
+                break;
+            case 6:
+                ContainerActivity.startActivity(menuActivity, GameFragment.class);
                 break;
         }
         drawer.closeDrawer(GravityCompat.START);
